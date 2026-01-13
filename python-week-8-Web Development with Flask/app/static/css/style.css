@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #343a40;
+    padding: 10px;
+}
+
+.navbar a {
+    color: #ffffff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: #343a40;
+    color: white;
+}

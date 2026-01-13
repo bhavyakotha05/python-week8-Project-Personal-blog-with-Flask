@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Welcome to Flask Blog</h1>
+
+{% if posts %}
+  {% for post in posts %}
+    <h3>{{ post.title }}</h3>
+  {% endfor %}
+{% else %}
+  <p>No posts yet.</p>
+{% endif %}
+
+{% endblock %}
